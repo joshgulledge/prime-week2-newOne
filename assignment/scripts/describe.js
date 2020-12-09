@@ -173,12 +173,12 @@ let age = 21;
 const minAge = 21;
 
 // here the log statement is switched, instructions say if age is greater than minAge,
-// log should return "enter", this code has it reversed
-//  if(minAge <= age) {
-//   console.log('enter');
-// } else {
-//   console.log('no entry');
-// }
+// log should return "enter", this code has it reversed and includes an equal.
+//  if(minAge < age) {                // if (age > minAge) {
+//   console.log('enter');            //   console.log('enter');
+// } else {                           // } else {
+//   console.log('no entry');         //   console.log("no entry");
+// }                                  // }
 
 if(minAge <= age) {
   console.log('no entry');
