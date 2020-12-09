@@ -73,7 +73,7 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 //here we start with three variables, one boolean set to true and two number variables.
-//The first line of the if statement checks to see if the studend value is set to true,
+//The first line of the if statement checks to see if the student value is set to true,
 // and that the zip is greater than 80000. Although the student variable is true the zip
 // is less than 80000 so this line does not run, the next line checks if student is false
 // or the age is less than 30. student is true and age is greater than 30 so neither of
@@ -136,11 +136,15 @@ if (number >= 2) {
 //-- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// according to the instructions these two colors should be switched:
+// let colorOne = "blue" ; let colorTwo = "red"
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// The instructions say to make both colors equal to purple if this code runs:
+// colorOne = "purple" ; colorTwo = "purple"
   colorOne = 'purple';
 }
 */
@@ -153,6 +157,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// the instructions say this should be an and statement not an or statement:
+// (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!);
 }
@@ -165,6 +171,14 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// here the log statement is switched, instructions say if age is greater than minAge,
+// log should return "enter", this code has it reversed
+//  if(minAge <= age) {
+//   console.log('enter');
+// } else {
+//   console.log('no entry');
+// }
 
 if(minAge <= age) {
   console.log('no entry');
